@@ -114,6 +114,14 @@ class EntityClient
     {
         return new CustomerOrderClient($this->api);
     }
+    
+    /**
+     * @return InvoiceOutClient
+     */
+    public function invoiceout(): InvoiceOutClient
+    {
+        return new InvoiceOutClient($this->api);
+    }
 
     /**
      * @return DiscountClient
