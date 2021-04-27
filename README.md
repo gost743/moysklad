@@ -3,7 +3,7 @@
 Она содержит набор функций, позволяющий совершать базовые операции над сущностями (создание, чтение, изменение, удаление).
 
 ## Установка
-- `composer require gost743/moysklad`
+- `composer require cdekmarketteam/moysklad`
 - `composer dump-autoload`
 
 ## Пример работы
