@@ -87,4 +87,3 @@ class InvoiceOutClient extends EntityClientBase
         return InvoiceOutClient::class;
     }
 }
-InvoiceOutClient
